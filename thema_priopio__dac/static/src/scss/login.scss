@@ -22,11 +22,11 @@ body.bg-100 {
     width: 450px;
 }
 a {
-    color: #556ee6;
+    color: #57a796;
     text-decoration: none;
 }
 a:hover {
-    color: #4458b8;
+    color: #3c7267;
     text-decoration: underline;
 }
 .alert-info {
@@ -46,26 +46,26 @@ a:hover {
 //login button starts
 .btn-primary {
     color: #fff;
-    background-color: #556ee6;
-    border-color: #556ee6;
+    background-color: #57a796;
+    border-color: #57a796;
 }
 .btn-primary:hover {
     color: #fff;
-    background-color: #485ec4;
-    border-color: #4458b8;
+    background-color: #6aceb8;
+    border-color: #3c7267;
 }
 .btn-check:active+.btn-primary,
 .btn-check:checked+.btn-primary,
 .btn-primary.active,.btn-primary:active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #4458b8 !important;
-    border-color: #4053ad !important;
+    background-color: #57a796 !important;
+    border-color: #57a796 !important;
 }
 .btn-check:focus+.btn-primary, .btn-primary:focus {
     color: #fff;
-    background-color: #485ec4 !important;
-    border-color: #4458b8 !important;
+    background-color: #3c7267 !important;
+    border-color: #3c7267 !important;
     -webkit-box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
     box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
 }
