@@ -13,6 +13,7 @@ class inventoryAdd(models.Model):
 
     guias = fields.Many2many(comodel_name='guia_sicm.guias',domain="[('status','=','1')]" ,string='Guias')
     
+    # dejamos un comentario para guardae 
 
     def action_set_quantities_to_reservation(self):
         res =  super().action_set_quantities_to_reservation()
